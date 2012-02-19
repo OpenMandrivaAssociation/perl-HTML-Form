@@ -1,9 +1,9 @@
 %define upstream_name    HTML-Form
-%define upstream_version 6.00
+%define upstream_version 6.01
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	1
 
 Summary:	Class that represents an HTML form element
 License:	GPL+ or Artistic
