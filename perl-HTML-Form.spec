@@ -1,5 +1,5 @@
 %define upstream_name    HTML-Form
-%define upstream_version 6.01
+%define upstream_version 6.02
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
