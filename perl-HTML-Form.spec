@@ -14,7 +14,7 @@ Source0:	http://www.cpan.org/modules/by-module/HTML/%{upstream_name}-%{upstream_
 BuildRequires:	perl(Encode)
 BuildRequires:	perl(HTML::TokeParser)
 BuildRequires:	perl(HTTP::Request)
-BuildRequires:	perl(HTTP::Request::Common)
+BuildRequires:	perl(HTTP::Request::Common) >= 6.30.0
 BuildRequires:	perl(URI)
 BuildArch:	noarch
 
