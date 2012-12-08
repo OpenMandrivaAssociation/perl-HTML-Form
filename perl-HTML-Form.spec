@@ -48,3 +48,36 @@ The following methods are available:
 %doc Changes META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
+
+%changelog
+* Sat Mar 31 2012 Götz Waschk <waschk@mandriva.org> 6.30.0-1
++ Revision: 788475
+- update build deps
+- new version
+
+* Wed Feb 22 2012 Götz Waschk <waschk@mandriva.org> 6.20.0-1
++ Revision: 779073
+- update build deps
+- update to new version 6.02
+
+* Sun Feb 19 2012 Götz Waschk <waschk@mandriva.org> 6.10.0-1
++ Revision: 777364
+- update to new version 6.01
+
+* Sun Jan 22 2012 Oden Eriksson <oeriksson@mandriva.com> 6.0.0-4
++ Revision: 765302
+- rebuilt for perl-5.14.2
+
+* Sat Jan 21 2012 Oden Eriksson <oeriksson@mandriva.com> 6.0.0-3
++ Revision: 763843
+- rebuilt for perl-5.14.x
+
+* Fri Nov 11 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 6.0.0-2
++ Revision: 729995
+- clean out old junk and apply some cosmetics
+
+* Mon May 09 2011 Götz Waschk <waschk@mandriva.org> 6.0.0-1
++ Revision: 672831
+- import perl-HTML-Form
+
