@@ -16,6 +16,7 @@ BuildRequires:	perl(Encode)
 BuildRequires:	perl(HTML::TokeParser)
 BuildRequires:	perl(HTTP::Request)
 BuildRequires:	perl(HTTP::Request::Common) >= 6.30.0
+BuildRequires:	perl(LWP::MediaTypes)
 BuildRequires:	perl(URI)
 BuildArch:	noarch
 
