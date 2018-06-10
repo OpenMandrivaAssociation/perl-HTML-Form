@@ -4,10 +4,10 @@
 Summary:	Class that represents an HTML form element
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	10
+Release:	11
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
+Url:		http://metacpan.org/pod/HTML::Form
 Source0:	http://www.cpan.org/modules/by-module/HTML/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
@@ -17,6 +17,8 @@ BuildRequires:	perl(HTTP::Request)
 BuildRequires:	perl(HTTP::Request::Common) >= 6.30.0
 BuildRequires:	perl(LWP::MediaTypes)
 BuildRequires:	perl(URI)
+BuildRequires:	perl(Test)
+BuildRequires:	perl(Test::More)
 
 %description
 Objects of the 'HTML::Form' class represents a single HTML '<form> ...
@@ -47,4 +49,3 @@ The following methods are available:
 %doc Changes META.yml README
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
-
