@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	13
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/HTML::Form
+Url:		https://metacpan.org/pod/HTML::Form
 Source0:	http://www.cpan.org/modules/by-module/HTML/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
