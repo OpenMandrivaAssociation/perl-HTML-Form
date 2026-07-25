@@ -1,14 +1,14 @@
 %define modname	HTML-Form
-%define modver	6.03
+%define modver	6.13
 
 Summary:	Class that represents an HTML form element
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	13
+Version:	%{modver}
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://metacpan.org/pod/HTML::Form
-Source0:	http://www.cpan.org/modules/by-module/HTML/%{modname}-%{modver}.tar.gz
+Url:		https://github.com/libwww-perl/HTML-Form
+Source0:	https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTML-Form-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
