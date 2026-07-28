@@ -4,7 +4,7 @@
 Summary:	Class that represents an HTML form element
 Name:		perl-%{modname}
 Version:	%{modver}
-Release:	1
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/libwww-perl/HTML-Form
@@ -20,6 +20,7 @@ BuildRequires:	perl(LWP::MediaTypes)
 BuildRequires:	perl(URI)
 BuildRequires:	perl(Test)
 BuildRequires:	perl(Test::More)
+BuildRequires: perl(Test::Warnings)
 
 %description
 Objects of the 'HTML::Form' class represents a single HTML '<form> ...
