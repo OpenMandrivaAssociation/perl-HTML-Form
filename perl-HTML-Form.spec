@@ -4,7 +4,7 @@
 Summary:	Class that represents an HTML form element
 Name:		perl-%{modname}
 Version:	%{modver}
-Release:	3
+Release:	4
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/libwww-perl/HTML-Form
@@ -47,6 +47,6 @@ The following methods are available:
 %makeinstall_std
 
 %files
-%doc Changes META.yml README
+%doc Changes META.yml
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
